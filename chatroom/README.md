@@ -50,17 +50,17 @@ From the `chatroom/` directory.
 
 ### Terminal 1 — File server (Node 0)
 ```bash
-python run_node.py 0
+python3 run_node.py 0
 ```
 
 ### Terminal 2 — User Alice (Node 1)
 ```bash
-python run_node.py 1
+python3 run_node.py 1
 ```
 
 ### Terminal 3 — User Bob (Node 2)
 ```bash
-python run_node.py 2
+python3 run_node.py 2
 ```
 
 ### CLI commands (on user nodes)
@@ -109,7 +109,7 @@ A successful run should show:
 With Node 0 running, start:
 
 ```bash
-python test_concurrent.py
+python3 test_concurrent.py
 ```
 
 This launches Alice and Bob in the same process (each with its own DME

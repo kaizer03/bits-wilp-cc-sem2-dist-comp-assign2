@@ -35,13 +35,13 @@ From the repository root:
 cd chatroom
 
 # Terminal 1 — file server (Node 0)
-python run_node.py 0
+python3 run_node.py 0
 
 # Terminal 2 — Alice (Node 1)
-python run_node.py 1
+python3 run_node.py 1
 
 # Terminal 3 — Bob (Node 2)
-python run_node.py 2
+python3 run_node.py 2
 ```
 
 Then on either user terminal:

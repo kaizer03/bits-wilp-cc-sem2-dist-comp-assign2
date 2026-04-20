@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # run_node.py -- Launches any of the three node roles.
 # Usage:
 #   python run_node.py 0          -> start file server (Node 0)
