@@ -1,0 +1,35 @@
+# -------- Python --------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.Python
+pip-wheel-metadata/
+
+# -------- Project runtime artifacts --------
+# The shared chat file is regenerated at runtime.
+chatroom/chat.txt
+# Per-node log files (node_0.log, node_1.log, ...) are verification output.
+chatroom/node_*.log
+node_*.log
+*.log
+
+# -------- Editor / IDE --------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# -------- OS --------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
