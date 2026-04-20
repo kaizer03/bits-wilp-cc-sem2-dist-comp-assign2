@@ -1,3 +1,7 @@
+# -------- Internal docs (kept locally, not in repo) --------
+assignment_doc.md
+cursor_prompt_dc_assignment2.md
+
 # -------- Python --------
 __pycache__/
 *.py[cod]

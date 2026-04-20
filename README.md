@@ -14,8 +14,6 @@ Cloud Lab Linux VM used for demonstration) and Windows.
 
 ```
 .
-├── assignment_doc.md              # Original assignment brief
-├── cursor_prompt_dc_assignment2.md# Implementation spec used for this project
 ├── chatroom/                      # The actual implementation
 │   ├── config.py                  # Ports, node IDs, usernames (shared config)
 │   ├── logger.py                  # Structured logger (stdout + per-node file)
